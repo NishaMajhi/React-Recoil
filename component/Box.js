@@ -6,7 +6,7 @@ import { inputBox } from "component/AtomsExample";
 
 export default function Box() {
 
-    // useRecoilValue is use to get the vcalue from the atom
+    // useRecoilValue is use to get the vcalue from the atom    
     const data1 = useRecoilValue(inputBox);
     console.log("atom data", data1);
 
